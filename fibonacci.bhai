@@ -1,0 +1,16 @@
+a crappy fibonacci program (the best i could do without arrays 😄)
+
+hi bhai
+    bhai ye hai fib_num = 0;
+    bhai ye hai curr = 1;
+    bhai ye hai prev = 0;
+
+    bol bhai 0;
+    bol bhai 1;
+    jab tak bhai (curr < 100) {
+        fib_num = curr + prev;
+        bol bhai fib_num;
+        prev = curr;
+        curr = fib_num;
+    }
+bye bhai

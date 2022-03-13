@@ -1,0 +1,17 @@
+{
+	"name": "bhai-lang",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"fizzbuzz": "bhailang fizzbuzz.bhai",
+		"fibb": "bhailang fibonacci.bhai"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"bhailang": "^0.0.3"
+	}
+}

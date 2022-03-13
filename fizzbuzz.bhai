@@ -1,0 +1,23 @@
+hi bhai
+    bhai ye hai count = 0;
+
+    jab tak bhai (count < 100) {
+        count += 1;
+        
+        agar bhai (count % 3 == 0) {
+            bol bhai "Fizz";
+        }
+
+        agar bhai (count % 5 == 0) {
+            bol bhai "Buzz";
+        }
+
+        agar bhai (count % 3 == 0 && count % 5 == 0) {
+            bol bhai "FizzBuzz";
+        }
+
+        agar bhai (count % 3 != 0 && count % 5 != 0) {
+            bol bhai count;
+        }
+    }
+bye bhai
